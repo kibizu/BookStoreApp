@@ -38,8 +38,8 @@
             <RelativeLayout
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
-                android:paddingLeft="@dimen/padding4">
-                <!-- Breed field -->
+                >
+                <!-- Price field -->
 
                 <EditText
                     android:id="@+id/edit_product_price"
@@ -47,13 +47,15 @@
                     android:inputType="number"
                     style="@style/EditorFieldStyle" />
 
-                <!-- Units for weight (kg) -->
+                <!-- Units for price (€) -->
                 <TextView
                     android:id="@+id/label_price_unit"
                     android:text="@string/unit_product_price"
                     style="@style/EditorUnitsStyle"/>
 
             </RelativeLayout>
+
+            <!-- The author of the book if exists-->
 
             <EditText
                 android:id="@+id/edit_product_author"
